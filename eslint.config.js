@@ -20,13 +20,13 @@ export default [
     },
     rules: {
       'no-unused-vars': 'warn',
-      yoda: ['warn', 'never'],
       'prettier/prettier': [
         'warn',
         {
           printWidth: 120,
         },
       ],
+      yoda: ['warn', 'never'],
     },
   },
 ];
